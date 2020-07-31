@@ -29,5 +29,5 @@ async def _6ball(ctx, *, question):
 async def clear(ctx, *, amount=5):
     await ctx.channel.purge(limit=amount)
 
-
+# you should put your discord bot token here, removed for obvious reasons
 hakkiri.run('...')
