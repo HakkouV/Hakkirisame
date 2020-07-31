@@ -8,8 +8,9 @@ hakkiri = commands.Bot(command_prefix = '$')
 @hakkiri.event
 async def on_ready():
     print('Bot is online')
-    await hakkiri.change_presence(activity=discord.Game('6 castanhas no quarto de jayb'))
-
+    status = ['traque de massa', '6 castanhas no quarto de jayb', 'dark souls 3 e peidando pro midir', 'lolis no porão', 'bola na pracinha']
+    await hakkiri.change_presence(activity=discord.Game(random.choice(status)))
+    
 # Commands
 @hakkiri.command(aliases=['ajuda'])
 async def _help(ctx):
