@@ -20,7 +20,7 @@ async def ping(ctx):
     await ctx.send(f'{random.choice(pongs)}')
 
 @hakkiri.command(aliases=['6ball', 'responda'])
-async def _8ball(ctx, *, question):
+async def _6ball(ctx, *, question):
     respostas = ['sim', 'com ctz', 'se pa', 'sla porra', 'é 6', 'claro que n mamao', 'te fode fidaputa']
     await ctx.send(f'{random.choice(respostas)}')
 
