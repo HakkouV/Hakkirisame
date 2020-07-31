@@ -1,5 +1,5 @@
 # Hakkirisame
-bot aleatório para o discord usando heroku para se manter online 24/7
+bot aleatório para o discord usando heroku para se manter online 24/7 (ou 550 horas mas isso n vem ao caso)
 
 atualmente ele é privado, então não disponibilizarei um link para adicioná-lo ao seu server
 
