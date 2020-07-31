@@ -1,10 +1,10 @@
 # Hakkirisame
-bot aleatorio para o discord
+bot aleatório para o discord
 
-atualmente ele é privado, então não disponibilizarei um link para adiciona-lo ao seu server
+atualmente ele é privado, então não disponibilizarei um link para adicioná-lo ao seu server
 
 ## Lista de comandos:
 - ping: pong + insira xingamento
 - 6ball: me faça uma pergunta e lhe responderei
-- clear: limparei as ultimas mensagens especificadas (default = 5)
+- clear: limparei as últimas mensagens especificadas (default = 5)
 - mais comandos estão por vir
