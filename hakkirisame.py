@@ -28,6 +28,12 @@ async def _6ball(ctx, *, question):
 @commands.has_permissions(manage_messages=True)
 async def clear(ctx, *, amount=5):
     await ctx.channel.purge(limit=amount)
+    
+@hakkiri.command()
+async def dado(ctx):
+    dados = ['1', '2', '3', '4', '5', 'tu tem dado em casa?']
+    await ctx.send(f'{random.choice(dados)}')
+
 
 # you should put your discord bot token here, removed for obvious reasons
 hakkiri.run('...')
