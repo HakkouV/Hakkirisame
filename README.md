@@ -1,9 +1,9 @@
 # Hakkirisame
-bot aleatório para o discord usando heroku para se manter online 24/7 (ou 550 horas mas isso n vem ao caso)
+random bot for doing the funny stuff on discord. it stays online for 550 hours per month unless i want to use some money to make it 24/7.
+this bot is currently private, so i won't make a invite link pubicly available
 
-atualmente ele é privado, então não disponibilizarei um link para adicioná-lo ao seu server
-
-## Lista de comandos:
+this bot currently works only in portuguese
+## command list:
 O prefixo de comandos é "$"
 - ping: pong + insira xingamento
 - 6ball: me faça uma pergunta e lhe responderei
