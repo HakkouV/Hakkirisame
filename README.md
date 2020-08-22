@@ -10,3 +10,5 @@ O prefixo de comandos é "$"
 - clear: limparei as últimas mensagens especificadas (default = 5)
 - dado: rolarei um dado de 5+1 lados
 - mais comandos estão por vir
+
+[![Run on Repl.it](https://repl.it/badge/github/hakkouv/hakkirisame)](https://repl.it/github/hakkouv/hakkirisame)
