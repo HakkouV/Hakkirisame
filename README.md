@@ -1,5 +1,4 @@
 # Hakkirisame
-[![Run on Repl.it](https://repl.it/badge/github/hakkouv/hakkirisame)](https://repl.it/github/hakkouv/hakkirisame)
 random bot for doing the funny stuff on discord. it stays online for 550 hours per month unless i want to use some money to make it 24/7.
 this bot is currently private, so i won't make a invite link pubicly available
 
@@ -12,3 +11,4 @@ O prefixo de comandos é "$"
 - dado: rolarei um dado de 5+1 lados
 - mais comandos estão por vir
 
+[![Run on Repl.it](https://repl.it/badge/github/hakkouv/hakkirisame)](https://repl.it/github/hakkouv/hakkirisame)
