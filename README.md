@@ -9,6 +9,7 @@ O prefixo de comandos é "$"
 - 6ball: me faça uma pergunta e lhe responderei
 - clear: limparei as últimas mensagens especificadas (default = 5)
 - dado: rolarei um dado de 5+1 lados
+- a: fatos tubarônicos
 - mais comandos estão por vir
 
 [![Run on Repl.it](https://repl.it/badge/github/hakkouv/hakkirisame)](https://repl.it/github/hakkouv/hakkirisame)
