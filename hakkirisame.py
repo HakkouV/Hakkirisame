@@ -23,7 +23,7 @@ async def ping(ctx):
 
 @hakkiri.command(aliases=['6ball', 'responda'])
 async def _6ball(ctx, *, question):
-    respostas = ['sim', 'com ctz', 'se pa', 'sla porra', 'é 6', 'claro que n mamao', 'te fode fidaputa']
+    respostas = ['sim', 'com ctz', 'se pa', 'sla porra', 'é 6', 'claro que n mamao', 'te fode fidaputa', 'yametekudastop']
     await ctx.send(f'{random.choice(respostas)}')
 
 @hakkiri.command()
@@ -35,6 +35,17 @@ async def clear(ctx, *, amount=5):
 async def dado(ctx):
     dados = ['1', '2', '3', '4', '5', 'tu tem dado em casa?']
     await ctx.send(f'{random.choice(dados)}')
+    
+@hakkiri.command()
+async def a(ctx):
+    shark_facts = ['Carnívoro absoluto, ele caça peixes pequenos ou os grandes que já estão moribundos. Nunca para de nadar e gasta muita energia. Por isso, tem digestão super rápida e precisar comer constantemente.', 
+                   'O tubarão é míope.', 
+                   'A pele de tubarão tem uma textura semelhante a uma lixa. Tubarões não podem ser boing boing pois eles são hidrodinâmicos devido a essa pele.', 
+                   'Tubarões perdem 20.000 dentes durante a sua vida. Isso é mais ou menos 20.000 bananas.', 
+                   'a',
+                   'O Tubarão-Martelo tem uma cabeça no formato de martelo. A sua comida favorita são arraias. Eles provavelmente chupam elas feito um sacolé.',
+                   'Um megalodon tem um tamanho equivalente a 140 bananas. 140 bananas de dentes e poder.',]
+    await ctx.send(f'{random.choice(shark_facts)}')
 
 
 hakkiri.run(os.environ['DISCORD_TOKEN'])
