@@ -52,7 +52,6 @@ async def dado(ctx):
     dados = ['1', '2', '3', '4', '5', 'tu tem dado em casa?']
     await ctx.send(f'{random.choice(dados)}')
 
-
 @hakkiri.command()
 async def elitista(ctx):
     anime = [
@@ -87,11 +86,7 @@ async def elitista(ctx):
         "se fingir de mulher no MAL.", 'um "se liga no LULZ" não ironicamente.'
     ]
     await ctx.send(
-        f'{"Um elitista com o anime/mangá favorito sendo" random.choice(anime) 
-        "que discute diariamente sobre" random.choice(temas) 
-        ". Mas ele na verdade é um" random.choice(adjetivo) 
-        "com" random.choice(crise) 
-        "e tenta esconder através de" random.choice(metodos)}'
+        f'{"Um elitista com o anime/mangá favorito sendo" random.choice(anime) "que discute diariamente sobre" random.choice(temas) ". Mas ele na verdade é um" random.choice(adjetivo) "com" random.choice(crise) "e tenta esconder através de" random.choice(metodos)}'
     )
 
 @hakkiri.command()
