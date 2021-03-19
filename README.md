@@ -11,5 +11,3 @@ O prefixo de comandos é ">>"
 - dado: rolarei um dado de 5+1 lados
 - a: fatos tubarônicos
 - mais comandos estão por vir
-
-[![Run on Repl.it](https://repl.it/badge/github/hakkouv/hakkirisame)](https://repl.it/github/hakkouv/hakkirisame)
