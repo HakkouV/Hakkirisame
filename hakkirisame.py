@@ -3,19 +3,24 @@ import random
 import discord
 from discord.ext import commands
 
-hakkiri = commands.Bot(command_prefix = '$')
+hakkiri = commands.Bot(command_prefix = '>>')
 
 # Events
 @hakkiri.event
 async def on_ready():
     print('Bot is online')
-    status = ['traque de massa', '6 castanhas no quarto de jayb', 'dark souls 3 e peidando pro midir', 'lolis no porão', 'bola na pracinha']
+    status = ['traque de massa', 'dark souls 3 e peidando pro midir', 'lolis no porão', 'bola na pracinha']
     await hakkiri.change_presence(activity=discord.Game(random.choice(status)))
 
 # Commands
 @hakkiri.command(aliases=['ajuda'])
 async def _help(ctx):
-    await ctx.send('lista de comandos aqui: https://github.com/HakkouV/Hakkirisame')
+    await ctx.send('lista de comandos:
+    >>ping
+    >>6ball
+    >>clear
+    >>dado
+    >>a')
 @hakkiri.command()
 async def ping(ctx):
     pongs = ['pong no teu bong?????', 'pong o caralho te fode fidaputa', 'pong é massa']
@@ -46,6 +51,8 @@ async def a(ctx):
                    'O Tubarão-Martelo tem uma cabeça no formato de martelo. A sua comida favorita são arraias. Eles provavelmente chupam elas feito um sacolé.',
                    'Um megalodon tem um tamanho equivalente a 140 bananas. 140 bananas de dentes e poder.',]
     await ctx.send(f'{random.choice(shark_facts)}')
+
+
 
 
 hakkiri.run(os.environ['DISCORD_TOKEN'])
