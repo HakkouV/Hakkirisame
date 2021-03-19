@@ -4,7 +4,7 @@ this bot is currently private, so i won't make a invite link pubicly available
 
 this bot currently works only in portuguese
 ## command list:
-O prefixo de comandos é "$"
+O prefixo de comandos é ">>"
 - ping: pong + insira xingamento
 - 6ball: me faça uma pergunta e lhe responderei
 - clear: limparei as últimas mensagens especificadas (default = 5)
