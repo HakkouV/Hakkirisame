@@ -20,7 +20,9 @@ async def on_ready():
 # Commands
 @hakkiri.command(aliases=['ajuda'])
 async def _help(ctx):
-    await ctx.send('lista de comandos:\n>>ping\n>>6ball\n>>clear\n>>dado\n>>a')
+    await ctx.send(
+        'lista de comandos:\n>>ping\n>>responda (pergunta)\n>>dado\n>>a\n>>momentocria'
+    )
 
 
 @hakkiri.command()
@@ -32,8 +34,8 @@ async def ping(ctx):
     await ctx.send(f'{random.choice(pongs)}')
 
 
-@hakkiri.command(aliases=['6ball', 'responda'])
-async def _6ball(ctx, *, question):
+@hakkiri.command(aliases=['pergunte', 'responda'])
+async def responda(ctx, *, question):
     respostas = [
         'sim', 'com ctz', 'se pa', 'sla porra', 'é 6', 'claro que n mamao',
         'te fode fidaputa', 'yametekudastop'
@@ -51,6 +53,7 @@ async def clear(ctx, *, amount=5):
 async def dado(ctx):
     dados = ['1', '2', '3', '4', '5', 'tu tem dado em casa?']
     await ctx.send(f'{random.choice(dados)}')
+
 
 @hakkiri.command()
 async def momentocria(ctx):
@@ -140,9 +143,17 @@ async def momentocria(ctx):
         'https://media.discordapp.net/attachments/789206612346535936/794810249571467275/familia.jpg?width=706&height=565', 
         'https://media.discordapp.net/attachments/789206612346535936/798364928225574942/unknown.png?width=436&height=565',
         'https://media.discordapp.net/attachments/789206612346535936/809093070803959808/unknown-4.png?width=516&height=352',
-        'https://media.discordapp.net/attachments/789206612346535936/817432589001687091/unknown.png?width=436&height=238',   
+        'https://media.discordapp.net/attachments/789206612346535936/817432589001687091/unknown.png?width=436&height=238',
+        'https://media.discordapp.net/attachments/548617197287768087/748925469654515782/unknown.png?width=277&height=129',
+        'https://clips.twitch.tv/UgliestSeductiveSkirretNotLikeThis-El6wylWvo6s2b6sj',
+        'https://clips.twitch.tv/BlindingHonorableKiwiPartyTime-wMIeNWvwEfuyPhVu',
+        'https://clips.twitch.tv/GentleHelpfulNeanderthalTF2John-MKC2Wee3qoTnppD4',
+        'https://media.discordapp.net/attachments/548617197287768087/691748351078695022/unknown.png?width=272&height=82',
+        'https://media.discordapp.net/attachments/767932279992483880/783118797598752798/Screenshot_20201130-205405_1.png?width=564&height=565',
+        'https://media.discordapp.net/attachments/764277352162656279/822553234127323176/amigo_va_tomar_no_seu_cu.png?width=554&height=81',
         ]
     await ctx.send(f'{random.choice(momentos)}')
+
 
 @hakkiri.command()
 async def a(ctx):
