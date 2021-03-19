@@ -21,6 +21,7 @@ async def _help(ctx):
     >>clear
     >>dado
     >>a')
+
 @hakkiri.command()
 async def ping(ctx):
     pongs = ['pong no teu bong?????', 'pong o caralho te fode fidaputa', 'pong é massa']
