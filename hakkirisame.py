@@ -142,6 +142,7 @@ async def momentocria(ctx):
         'https://media.discordapp.net/attachments/789206612346535936/809093070803959808/unknown-4.png?width=516&height=352',
         'https://media.discordapp.net/attachments/789206612346535936/817432589001687091/unknown.png?width=436&height=238',   
         ]
+    await ctx.send(f'{random.choice(momentos)}')
 
 @hakkiri.command()
 async def a(ctx):
