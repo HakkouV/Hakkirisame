@@ -15,13 +15,8 @@ async def on_ready():
 # Commands
 @hakkiri.command(aliases=['ajuda'])
 async def _help(ctx):
-    await ctx.send('lista de comandos:
-    >>ping
-    >>6ball
-    >>clear
-    >>dado
-    >>a')
-
+    await ctx.send('lista de comandos:\n>>ping\n>>6ball\n>>clear\n>>dado\n>>a')
+    
 @hakkiri.command()
 async def ping(ctx):
     pongs = ['pong no teu bong?????', 'pong o caralho te fode fidaputa', 'pong é massa']
