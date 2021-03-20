@@ -10,4 +10,5 @@ O prefixo de comandos é ">>"
 - clear: limparei as últimas mensagens especificadas (default = 5)
 - dado: rolarei um dado de 5+1 lados
 - a: fatos tubarônicos
+- momentocria: Momento dos Crias
 - mais comandos estão por vir
