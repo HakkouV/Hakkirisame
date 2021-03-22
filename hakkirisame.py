@@ -154,6 +154,42 @@ async def momentocria(ctx):
         ]
     await ctx.send(f'{random.choice(momentos)}')
 
+@hakkiri.command()
+async def elitista(ctx):
+    anime = [
+        "Evangelion", "Tatami Galaxy", "Legend of the Galactic Heroes",
+        "Serial Experiments Lain", "Ashita no Joe", "NHK ni Youkoso",
+        "Texhnolyze", "Cowboy Bebop", "Gundam", "FLCL", "Macross", "Berserk",
+        "Kaiji", "Haibane Renmei", "Princess Tutu", "Ergo Proxy",
+        "Angel's Egg", "Area 88", "Detective Conan", "The End of Evangelion",
+        "Sketchbook: Full Color's", "Fullmetal Alchemist: Brotherhood",
+        "Sayonara Zetsubou Sensei", "Oyasumi Punpun", "Akage no Anne",
+        "Sword Art Online", "Chaves", "Avatar", "Monogatari", "Steins;Gate",
+        "Planetes", "Devilman Crybaby", "Ping Pong The Animation", "ARIA",
+        "Monster"
+    ]
+    temas = [
+        "a animação.", "a trama.", "o enredo.", "a direção.",
+        "os subtemas escondidos.", "o real significado da obra.",
+        "o seu impacto no mundo dos animes/mangás.", "as tetas da waifu."
+    ]
+    adjetivo = [
+        "gordo", "inseguro", "maluco", "magrelo", "branco", "preto", "pobre",
+        "verme", "nerdola", "cria", "channer", "redditor"
+    ]
+    crise = [
+        "depressão", "esquizofrenia", "ansiedade", "retardo mental",
+        "síndrome de down", "autismo", "burro", "anorexia", "bulimia"
+    ]
+    metodos = [
+        "um blog pessoal onde ele escreve resenhas e reviews sobre animes.",
+        "um canal no youtube.", "uma conta no twitter sobre animes.",
+        "shitposting no server do discord favorito dele.",
+        "se fingir de mulher no MAL.", 'um "se liga no LULZ" não ironicamente.'
+    ]
+
+
+    await ctx.send(f'{"Um elitista com o anime/mangá favorito sendo", random.choice(anime), "que discute diariamente sobre", random.choice(temas), "Mas ele na verdade é um", random.choice(adjetivo), "com", random.choice(crise), "e tenta esconder através de", random.choice(metodos)}')
 
 @hakkiri.command()
 async def a(ctx):
