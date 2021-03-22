@@ -151,6 +151,7 @@ async def momentocria(ctx):
         'https://media.discordapp.net/attachments/548617197287768087/691748351078695022/unknown.png?width=272&height=82',
         'https://media.discordapp.net/attachments/767932279992483880/783118797598752798/Screenshot_20201130-205405_1.png?width=564&height=565',
         'https://media.discordapp.net/attachments/764277352162656279/822553234127323176/amigo_va_tomar_no_seu_cu.png?width=554&height=81',
+        'https://media.discordapp.net/attachments/779436290835611689/823258263180542042/Screenshot_4-1.png?width=310&height=148',
         ]
     await ctx.send(f'{random.choice(momentos)}')
 
